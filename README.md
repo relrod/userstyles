@@ -4,7 +4,7 @@ Custom userstyles I use for various sites.
 This readme document outlines the purpose for each \*.css file within this
 repository.
 
-### craigslist.org.css
+### [craigslist.org.css](http://userstyles.org/styles/101702/craigslist-default-serif)
 
 Craigslist forces certain serif typefaces, namely
 `"Bitstream Vera Serif","Times New Roman",serif`, but I like my default serif

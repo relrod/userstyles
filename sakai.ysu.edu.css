@@ -1,0 +1,18 @@
+/* Sakai has an utterly horrible UI that tries to be flashy but instead just
+ * introduces a crapton of lag as the user has to wait for AJAX requests (roughly
+ * 60 requests in total just to load a single page).
+ *
+ * One way around this is to use noscript to block all of sakai.ysu.edu, then
+ * apply this stylesheet to nuke the annoying <noscript> banner and to expand
+ * the silly iframe they load content in.
+ *
+ * To submit an assignment, though, you still need JS enabled.
+ * When does it end?
+ */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("sakai.ysu.edu") {
+  #portal_js_warn { display: none; }
+  #portletMainWrap { position: relative; }
+  iframe { height: 100% !important; position: absolute; }
+}

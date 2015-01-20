@@ -11,3 +11,8 @@ Craigslist forces certain serif typefaces, namely
 typeface better. The current goal of **craigslist.org.css** is to replace only
 the areas of \*.craigslist.org which are written in a serif typeface with the
 browser's default serif typeface.
+
+### sakai.ysu.edu.css
+
+Sakai's UI is completely terrible. Noscripting it and enabling this stylesheet
+helps a bit, but to submit assignments, you must temporarily unblock JS.
